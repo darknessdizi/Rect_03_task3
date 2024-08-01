@@ -1,13 +1,20 @@
 import './App.css';
-import { Listing } from './components/Listing/Listing';
-import { data } from './constant/const'; 
+import MessageHistory from './components/MessageHistory/MessageHistory';
+import { ListMessages } from './modals/modals';
+import { messages } from './const/const';
+
+const data: ListMessages = messages;
 
 function App() {
   return (
-    <>
-      <Listing items={data}/>
-    </>
-  )
+    <div className="clearfix container">
+      <div className="chat">
+        <div className="chat-history">
+          <MessageHistory list={data} />
+        </div>
+      </div>  
+    </div>
+  );
 }
 
-export default App
+export default App;

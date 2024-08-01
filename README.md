@@ -1,6 +1,10 @@
 История чата
 ===
 
+[![Build status](https://ci.appveyor.com/api/projects/status/cm1uk82w5n7i5u52?svg=true)](https://ci.appveyor.com/project/darknessdizi/rect-03-task3)
+
+*Ссылка на страницу:* https://darknessdizi.github.io/Rect_03_task3/
+
 Необходимо реализовать один из компонентов чата — историю сообщений:
 ![Чат](./assets/preview.png)
 
